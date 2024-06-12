@@ -50,6 +50,4 @@ We found picking the model according to 'Old' class performance could lead to po
 
 The codebase is largely built on this repo: https://github.com/CVMI-Lab/SimGCD.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
