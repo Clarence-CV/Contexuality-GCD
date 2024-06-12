@@ -1,4 +1,4 @@
-# Parametric Classification for Generalized Category Discovery: A Baseline Study
+# Contexuality Helps Representation Learning for Generalized Category Discovery
 
 
 <p align="center">
@@ -15,15 +15,10 @@
   <a href="https://xjqi.github.io/">Xiaojuan Qi</a>.
 </p>
 
-![teaser](assets/teaser.jpg)
 
-Generalized Category Discovery (GCD) aims to discover novel categories in unlabelled datasets using knowledge learned from labelled samples.
-Previous studies argued that parametric classifiers are prone to overfitting to seen categories, and endorsed using a non-parametric classifier formed with semi-supervised $k$-means.
 
-However, in this study, we investigate the failure of parametric classifiers, verify the effectiveness of previous design choices when high-quality supervision is available, and identify unreliable pseudo-labels as a key problem. We demonstrate that two prediction biases exist: the classifier tends to predict seen classes more often, and produces an imbalanced distribution across seen and novel categories. 
-Based on these findings, we propose a simple yet effective parametric classification method that benefits from entropy regularisation, achieves state-of-the-art performance on multiple GCD benchmarks and shows strong robustness to unknown class numbers.
-We hope the investigation and proposed simple framework can serve as a strong baseline to facilitate future studies in this field.
-
+This paper introduces a novel approach to Generalized Category Discovery (GCD) by leveraging the concept of contextuality to enhance the identification and classification of categories in unlabeled datasets. Drawing inspiration from human cognition's ability to recognize objects within their context, we propose a dual-context based method. 
+		Our model integrates two levels of contextuality: instance-level, where nearest-neighbor contexts are utilized for contrastive learning, and cluster-level, employing prototypical contrastive learning based on category prototypes. The integration of the contextual information effectively improves the feature learning and thereby the classification accuracy of all categories, which better deals with the real-world datasets. Different from the traditional semi-supervised and novel category discovery techniques, our model focuses on a more realistic and challenging scenario where both known and novel categories are present in the unlabeled data.  Extensive experimental results on several benchmark data sets demonstrate that the proposed model outperforms the state-of-the-art. 
 ## Running
 
 ### Dependencies
