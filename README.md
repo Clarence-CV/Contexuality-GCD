@@ -44,9 +44,6 @@ We also use generic object recognition datasets, including:
 bash scripts/run_${DATASET_NAME}.sh
 ```
 
-We found picking the model according to 'Old' class performance could lead to possible over-fitting, and since 'New' class labels on the held-out validation set should be assumed unavailable, we suggest not to perform model selection, and simply use the last-epoch model.
-
-
 ## Acknowledgements
 
 The codebase is largely built on this repo: https://github.com/CVMI-Lab/SimGCD.
