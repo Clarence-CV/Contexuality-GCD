@@ -5,8 +5,9 @@
 
 
 
-
- ![teaser](assets/teaser.jpg)  
+<p align="center">
+  <img src="assets/teaser.jpg" alt="teaser">
+</p>
 
 
 This paper introduces a novel approach to Generalized Category Discovery (GCD) by leveraging the concept of contextuality to enhance the identification and classification of categories in unlabeled datasets. Drawing inspiration from human cognition's ability to recognize objects within their context, we propose a dual-context based method. 
