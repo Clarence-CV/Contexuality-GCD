@@ -1,6 +1,12 @@
 # Contexuality Helps Representation Learning for Generalized Category Discovery
 
-
+<p align="center">
+	Contexuality Helps Representation Learning for Generalized Category Discovery (ICIP 2024)<br>
+  By
+  <a href="https://wen-xin.info">Xin Wen</a>*, 
+  <a href="https://bzhao.me/">Bingchen Zhao</a>*, and 
+  <a href="https://xjqi.github.io/">Xiaojuan Qi</a>.
+</p>
 
 
 
