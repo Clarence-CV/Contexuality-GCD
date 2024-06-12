@@ -5,7 +5,9 @@
 
 
 
-                                                                    ![teaser](assets/teaser.jpg)
+<div style="text-align:center;">  
+    ![teaser](assets/teaser.jpg)  
+</div>
 
 This paper introduces a novel approach to Generalized Category Discovery (GCD) by leveraging the concept of contextuality to enhance the identification and classification of categories in unlabeled datasets. Drawing inspiration from human cognition's ability to recognize objects within their context, we propose a dual-context based method. 
 		Our model integrates two levels of contextuality: instance-level, where nearest-neighbor contexts are utilized for contrastive learning, and cluster-level, employing prototypical contrastive learning based on category prototypes. The integration of the contextual information effectively improves the feature learning and thereby the classification accuracy of all categories, which better deals with the real-world datasets. Different from the traditional semi-supervised and novel category discovery techniques, our model focuses on a more realistic and challenging scenario where both known and novel categories are present in the unlabeled data.  Extensive experimental results on several benchmark data sets demonstrate that the proposed model outperforms the state-of-the-art. 
