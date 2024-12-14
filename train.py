@@ -289,8 +289,10 @@ if __name__ == "__main__":
     args.interpolation = 3
     args.crop_pct = 0.875
 
+#DINO V2
+    # backbone = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14')
 
-    backbone = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14')
+    backbone = torch.hub.load('facebookresearch/dino:main', 'dino_vitb16')
 
     if args.warmup_model_dir is not None:
         args.logger.info(f'Loading weights from {args.warmup_model_dir}')
